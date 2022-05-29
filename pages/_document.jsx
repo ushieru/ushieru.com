@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
-export default () => <Html>
+const Document = () => <Html>
     <Head>
         <link rel="icon" href="/favicon.svg" />
     </Head>
@@ -9,3 +9,5 @@ export default () => <Html>
         <NextScript />
     </body>
 </Html>
+
+export default Document

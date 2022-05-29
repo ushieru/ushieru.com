@@ -28,6 +28,7 @@ const Blog = ({ articles, tags }) => {
                                 key={article.id}
                                 href={article.url}
                                 target="_blank"
+                                rel='noreferrer'
                                 className="flex flex-col border border-gray-700 rounded p-4"
                             >
                                 <div className="flex justify-between">
