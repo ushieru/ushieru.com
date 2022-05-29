@@ -1583,11 +1583,6 @@ react-dom@18.1.0:
     loose-envify "^1.1.0"
     scheduler "^0.22.0"
 
-react-happy-flow@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-happy-flow/-/react-happy-flow-1.0.2.tgz#7b59e9f79161584b302c31a6ad52e6a9f51db16f"
-  integrity sha512-945CbOnQCcDGiH3kt7sqN3BlctVC9Mn1MP9BNLFLEsExryOwDMLGEw1nRAx5oxTokUq/nHN4mkklSRQpnrWMbg==
-
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
