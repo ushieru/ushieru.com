@@ -57,8 +57,7 @@ export const getStaticProps = async () => {
         props: {
             articles: jsonResponse,
             tags: Array.from(tags)
-        },
-        revalidate: 21600 // 6 hours
+        }
     }
 }
 
