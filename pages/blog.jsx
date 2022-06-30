@@ -47,7 +47,7 @@ const Blog = ({ articles, tags }) => {
     </>
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async (_ctx) => {
     const response = await fetch("https://dev.to/api/articles?username=ushieru")
     const jsonResponse = await response.json()
     const tags = new Set()
@@ -57,8 +57,7 @@ export const getStaticProps = async () => {
         props: {
             articles: jsonResponse,
             tags: Array.from(tags)
-        },
-        revalidate: 21600 // 6 hours
+        }
     }
 }
 
