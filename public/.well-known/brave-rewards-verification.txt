@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ushieru.com
+Token: 0438368d9bbd647843fa690d8159c5a2ff3e64d0e146fc38a0faee083f69f626
