@@ -2,16 +2,16 @@ import Link from "next/link"
 import Image from "next/image"
 
 const Navbar = () => <>
-    <div className="flex items-center py-1 px-3 sm:p-5 sm:py-0 sm:mt-4 container m-auto">
-        <div className="flex-grow">
+    <div className="flex justify-between items-center py-1 px-3 sm:p-5 sm:py-0 sm:mt-4 container m-auto">
+        <div className="w-12 sm:w-16">
             <Link href="/">
                 <a>
                     <Image
-                        height={64}
+                        layout='responsive'
                         width={64}
+                        height={64}
                         src='/favicon.svg'
                         alt="ushieruIconSvg"
-                        className="sm:h-20 p-2 inline-block"
                     />
                 </a>
             </Link>
