@@ -1,9 +1,8 @@
 import { useState } from 'react'
-import Layout from './../components/layout/main'
+import Layout from '../../components/layout/main'
 
 const Blog = ({ articles, tags }) => {
     const [currentTag, setCurrentTag] = useState('')
-
     return <>
         <Layout title="Ushieru's Blog">
             <div className='sm:container px-4 mb-2 mt-4'>
@@ -26,9 +25,7 @@ const Blog = ({ articles, tags }) => {
                         .map((article) => (
                             <a
                                 key={article.id}
-                                href={article.url}
-                                target="_blank"
-                                rel='noreferrer'
+                                href={`/blog/${article.id}`}
                                 className="flex flex-col border border-gray-700 rounded p-4"
                             >
                                 <div className="flex justify-between">
@@ -42,7 +39,7 @@ const Blog = ({ articles, tags }) => {
                         ))}
                 </div>
             </div>
-            <div className="h-10" />
+            <p className='text-gray-500 my-1 sm:container w-full text-right'>Powered by <a className='underline' href="https://dev.to/">dev.to</a></p>
         </Layout>
     </>
 }
