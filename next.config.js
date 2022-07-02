@@ -9,5 +9,3 @@ module.exports = withPWA({
   },
   reactStrictMode: true,
 })
-
-module.exports = nextConfig
