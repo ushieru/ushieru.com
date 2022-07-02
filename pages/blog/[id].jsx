@@ -3,16 +3,16 @@ import Layout from '../../components/layout/main'
 const Blog = ({ title, readable_publish_date, body_html, url }) => {
     return <>
         <Layout title="Ushieru's Blog">
-            <section className='text-gray-300 px-2 my-4 sm:container'>
+            <section className='text-gray-300 px-2 sm:my-4 sm:container w-full'>
                 <h1 className='text-2xl font-bold text-left w-full'>{title}</h1>
-                <div className='flex justify-between'>
+                <div className='flex justify-between w-full'>
                     <p className='text-gray-500'>{readable_publish_date}</p>
                     <a href={url} target='_blank' rel='noreferrer' className='text-gray-500 underline'>Post Original</a>
                 </div>
             </section>
             <article
-                className={`px-2 sm:container overflow-auto flex-grow text-gray-500 
-                    prose lg:prose-xl
+                className={`w-full px-2 sm:w-auto sm:px-0 sm:container overflow-auto flex-grow text-gray-500 
+                    prose prose-sm md:prose-base lg:prose-xl
                     prose-headings:text-gray-300 prose-blockquote:text-gray-500
                     prose-a:text-gray-500 prose-code:text-gray-200 prose-img:m-auto 
                     prose-strong:font-bold prose-strong:text-gray-500`}
