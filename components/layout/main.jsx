@@ -5,7 +5,7 @@ const Layout = ({ children, title }) => <>
     <Head>
         <title>{title}</title>
 
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="description" content="Ushieru's personal website" />
         <meta name="author" content="Uziel Atlai Cocolan Flores (Ushieru)" />
         <meta name="robots" content="index"/>
