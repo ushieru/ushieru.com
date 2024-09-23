@@ -14,9 +14,6 @@ import SocialNetworks from './components/SocialNetworks.vue'
       </div>
       <p class="font-bold text-5xl sm:text-7xl mt-10">I&apos;m Ushieru</p>
       <p class="text-3xl sm:text-5xl mt-3">Software Engineer</p>
-      <p class="text-center text-md sm:text-xl mt-3">
-        IBMer, entrepreneur, dance, theater and acrobatics enthusiast.
-      </p>
       <SocialNetworks />
     </div>
   </div>
