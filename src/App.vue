@@ -13,7 +13,7 @@ import SocialNetworks from './components/SocialNetworks.vue'
           class="rounded-full" />
       </div>
       <p class="font-bold text-5xl sm:text-7xl mt-10">I&apos;m Ushieru</p>
-      <p class="text-3xl sm:text-5xl mt-3">Software Engineer</p>
+      <p class="text-3xl sm:text-5xl mt-3">Senior Technical Consultant - AI & Cloud</p>
       <SocialNetworks />
     </div>
   </div>
